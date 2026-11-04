@@ -1,0 +1,86 @@
+/* All CSS styles go here */
+.square{
+    width: 300px;
+    height: 200px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    border: 2px solid black;
+}
+.stripe{
+    flex: 1; /* makes each stripe take up 1/3 of the space */
+}
+.stripe-1{
+    background-color: black;
+}
+.stripe-2{
+    background-color: yellow;
+}
+.stripe-3{
+    background-color: red;
+}
+
+
+.square1{
+    width: 300px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+    /* centering contents inside the square */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+.circle1{
+    width: 100px;
+    height: 100px;
+    background:red;
+    border-radius: 50px; /*turns square into circle */
+}
+    
+}
+.square2{
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    background: rgb(230, 0, 38);
+    border: 2px solid black;
+
+.diagonal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 361px;
+    border-top: 30px solid black;
+    transform-origin: top left;
+    transform: rotate(33.69deg);
+}
+
+}
+
+/*
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: purple;
+    border: 5px grey solid;
+    
+}
+.line{
+    border: 9px red solid;
+    width: 600px;
+    height: 0px;
+    transform: rotate(45deg);
+
+}
+.surprise{
+    width: 0px;
+    height: 0px;
+    border-top: 100px solid transparent;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 67px solid orange;
+    
+
+}
+    */
